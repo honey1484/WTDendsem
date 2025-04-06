@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing FAQs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f1f1;
+        }
+        .faq {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #a188a6;
+        }
+        h3 {
+            color: #665a86;
+            border-bottom: 2px solid #a188a6;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        .question {
+            font-weight: bold;
+            cursor: pointer;
+            background: #c8a2c8;
+            color: white;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .question:hover {
+            background: #b592b2;
+        }
+        .answer {
+            display: none;
+            padding: 15px;
+            background: #f3e5f5;
+            border-left: 5px solid #c8a2c8;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="faq">
+        <h2>FAQs about Digital Marketing</h2>
+        
+        <h3>General Digital Marketing</h3>
+        <div class="faq-item">
+            <div class="question">What is digital marketing?</div>
+            <div class="answer">Digital marketing refers to the use of digital channels such as search engines, social media, email, and websites to promote products or services. It encompasses a wide range of strategies and techniques to engage customers online, build brand awareness, generate leads, and drive conversions.</div>
+        </div>
+        <div class="faq-item">
+            <div class="question">Why is digital marketing important?</div>
+            <div class="answer">Digital marketing is crucial because it allows businesses to reach a global audience with minimal costs compared to traditional marketing. It enables targeted advertising, real-time customer interaction, and data-driven decision-making, helping businesses optimize their marketing efforts for better ROI.</div>
+        </div>
+        
+        <h3>SEO (Search Engine Optimization)</h3>
+        <div class="faq-item">
+            <div class="question">How does SEO help in digital marketing?</div>
+            <div class="answer">SEO (Search Engine Optimization) improves a website's visibility on search engines like Google by optimizing content, keywords, backlinks, and technical aspects. Higher rankings lead to increased organic traffic, better brand credibility, and higher conversion rates.</div>
+        </div>
+        
+        <h3>PPC (Pay-Per-Click) Advertising</h3>
+        <div class="faq-item">
+            <div class="question">What is PPC (Pay-Per-Click) advertising?</div>
+            <div class="answer">PPC advertising is an online advertising model where advertisers pay a fee each time their ad is clicked. It is commonly used on platforms like Google Ads and social media networks, allowing businesses to target specific audiences based on demographics, location, interests, and behavior.</div>
+        </div>
+        
+        <h3>Content Marketing</h3>
+        <div class="faq-item">
+            <div class="question">What is content marketing?</div>
+            <div class="answer">Content marketing involves creating and distributing valuable, relevant, and consistent content to attract and retain a clearly defined audience. It includes blog posts, videos, infographics, and social media content designed to educate and engage potential customers.</div>
+        </div>
+        
+        <h3>Social Media Marketing</h3>
+        <div class="faq-item">
+            <div class="question">How does social media marketing work?</div>
+            <div class="answer">Social media marketing involves using platforms like Facebook, Instagram, LinkedIn, and Twitter to connect with audiences, build brand loyalty, and drive website traffic. It includes organic posts, paid ads, and influencer collaborations to engage users effectively.</div>
+        </div>
+        
+        <h3>Email & Affiliate Marketing</h3>
+        <div class="faq-item">
+            <div class="question">What is email marketing?</div>
+            <div class="answer">Email marketing is a direct communication strategy where businesses send promotional messages, newsletters, or personalized offers to their subscribers. It helps nurture leads, retain customers, and drive conversions through targeted and automated email campaigns.</div>
+        </div>
+        
+        <h3>Performance & Analytics</h3>
+        <div class="faq-item">
+            <div class="question">What are KPIs in digital marketing?</div>
+            <div class="answer">KPIs (Key Performance Indicators) are measurable metrics used to evaluate the success of digital marketing efforts. Common KPIs include website traffic, engagement rate, conversion rate, customer acquisition cost, and return on investment (ROI).</div>
+        </div>
+        
+        <h3>Advanced Strategies</h3>
+        <div class="faq-item">
+            <div class="question">What is remarketing?</div>
+            <div class="answer">Remarketing is a digital marketing strategy that targets users who have previously visited a website but did not take a desired action, such as making a purchase. Using cookies, businesses can show relevant ads to these users across different websites and social media platforms to encourage conversions.</div>
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('.question').forEach(item => {
+            item.addEventListener('click', () => {
+                const answer = item.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
